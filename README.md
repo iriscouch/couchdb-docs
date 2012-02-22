@@ -8,21 +8,21 @@ guides.
 In order to build the documentation you need the following Perl
 modules installed:
 
-Carp
-File::Basename
-Getopt::Long
-IO::File
-Module::Load;
-Module::Util
-XML::Parser::PerlSAX
-Image::Info
-DateTime
+* Carp
+* File::Basename
+* Getopt::Long
+* IO::File
+* Module::Load;
+* Module::Util
+* XML::Parser::PerlSAX
+* Image::Info
+* DateTime
 
 To use the publishing system, you need the following Perl modules:
 
-Archive::Zip
-Cwd
-File::Rsync
+* Archive::Zip
+* Cwd
+* File::Rsync
 
 In short:
 
@@ -33,10 +33,10 @@ In short:
 To actually build the target formats and assemble the documentation,
 you also need:
 
-xsltproc (http://xmlsoft.org/XSLT/downloads.html)
-FOP 1.x (http://xmlgraphics.apache.org/fop/)
-Zip
-GNU make
+* xsltproc (http://xmlsoft.org/XSLT/downloads.html)
+* FOP 1.x (http://xmlgraphics.apache.org/fop/)
+* Zip
+* GNU make
 
 ## Building
 
