@@ -43,6 +43,10 @@ you also need:
 * Zip
 * GNU make
 
+On **Ubuntu**, install these packages:
+
+    $ [sudo] apt-get install xsltproc fop zip make
+
 ## Building
 
 You can build all of the available documentation (in the respective
