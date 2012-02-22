@@ -24,7 +24,12 @@ To use the publishing system, you need the following Perl modules:
 * Cwd
 * File::Rsync
 
-In short:
+On **Ubuntu**, install these packages:
+
+    $ [sudo] apt-get install perl-base perl-modules libmodule-util-perl libxml-perl libimage-info-perl libdatetime-perl
+    $ [sudo] apt-get install libarchive-zip-perl libfile-rsync-perl
+
+Or use the CPAN tool directly:
 
     $ [sudo] cpan -i Carp File::Basename IO:File Module::Load Module::Util XML::Parser::PerlSAX Image::Info Archive::Zip Cwd File::Rsync DateTime
 
